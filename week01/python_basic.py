@@ -138,7 +138,7 @@ a.insert(0,99)
 print(a)
 
 # 원소 삭제
-a.reverse(99)
+a.remove(99)
 print(a)
 
 b=[1,2,3]
