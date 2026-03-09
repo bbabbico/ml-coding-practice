@@ -357,3 +357,18 @@ print(type(a))
 sum = lambda a, b:a+b
 
 print(sum(3,5))
+
+#최대 최소값 반환
+print(max([1, 4, 2, 8, 6]))
+print(max("Python"))
+
+print(min([1, 4, 2, 8, 6]))
+print(min("Python"))
+
+# x의 y제곱 결과값 반환
+print(pow(2, 4))
+
+# 사용자 입력으로 받은 값을 문자열로 반환1
+c = input("값을 입력해주세요:")
+print(c)
+
