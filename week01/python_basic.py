@@ -228,3 +228,25 @@ print(s2.intersection(s3))
 # 합집합 연산
 print(s2 | s3)
 print(s2.union(s3))
+
+# 원소 한 개 추가
+s2.add(7)
+print(s2)
+
+# 원소 여러 개 추가
+s2.update([6,7,8,9,10])
+print(s2)
+
+# 특정 원소 제거
+s2.remove(7)
+print(s2)
+
+s2 = set([1,2,3,4,5,6,4,2,7])
+print(s2)
+
+# 비교연산자
+x=3
+y=2
+print(x==y)
+print(x!=y)
+print(x>=y)
