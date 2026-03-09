@@ -165,4 +165,27 @@ print(t4[3][-1])
 # 튜플 슬라이싱
 t4[0:3]
 
+# 튜플 연결
+print(t1+t2)
+#print(t1+"hi~ ^^:") #오류발생
+
+# 튜플 반복
+t2 * 10
+
+# 튜플 수정(불가능)
+# t2[2] =99 #오류발생
+
+# 딕셔너리 만들기
+dic = {'name':'Hong', 'phone':'01012345678', 'birth':'0814'}
+
+# 원소 추가
+dic[1] = 'a'
+print(dic)
+
+dic['pet'] = 'dog'
+print(dic)
+
+# 원소 삭제
+del dic[1]
+print(dic)
 
