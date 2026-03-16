@@ -201,3 +201,5 @@ print(np.sqrt(A))
 print(np.arange(8).reshape(2, 4) + 10)
 a = np.arange(8).reshape(2, 4) ** 2
 print(a)
+
+p
