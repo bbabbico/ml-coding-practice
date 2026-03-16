@@ -208,3 +208,4 @@ print(a.mean(axis = 0))
 
 print(a.min())
 print(a.max())
+
