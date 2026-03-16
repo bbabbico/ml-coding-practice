@@ -79,9 +79,13 @@ condition = (
 # 조건을 만족하는 행들 필터링
 winner_df = df[condition]
 print(winner_df)
-
 print(sample_df.reset_index())
-
 print(sample_df.reset_index(drop=True))
-
 print(sample_df.set_index('var_1'))
+
+print(sample_df.describe())
+print(sample_df.std())
+print(sample_df.agg(['count','mean', 'std', 'min', 'max']))
+
+file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/main/iris.csv'
+iris = pd.read_csv(file_url)
