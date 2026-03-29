@@ -275,3 +275,8 @@ plt.plot([10, 11, 12])
 plt.savefig('Figure12.png')
 plt.close()
 
+plt.subplot(2, 2, 4)
+plt.plot([10, 11, 12])
+plt.savefig('Figure12.png')
+plt.close()
+
