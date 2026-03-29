@@ -399,3 +399,13 @@ plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Tit
 plt.tight_layout()
 plt.savefig('Figure16.png')
 plt.close()
+
+## **그래프 저장하기**
+
+# 히스토그램 그리기
+plt.hist(titanic['Age'], bins=20, color='skyblue', edgecolor='black')
+plt.xlabel('Age')
+plt.ylabel('Count')
+plt.title('Distribution of Ages on the Titanic')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+
