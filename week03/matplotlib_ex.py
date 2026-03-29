@@ -10,3 +10,8 @@ titanic = pd.read_csv('3.1.1.titanic.csv')
 # 데이터 처음 5개의 행 출력
 print(titanic.head())
 
+# 열에 대한 요약 정보 확인
+print(titanic.info())
+
+"""### **선 그래프 : 객실 등급에 따른 생존율 표시하기**"""
+
