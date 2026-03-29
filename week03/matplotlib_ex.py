@@ -77,3 +77,8 @@ plt.axvline(x=survived_counts['male'], color='gray', linestyle='--', linewidth=1
 for i, value in enumerate(survived_counts):
   plt.text(value + 1, i, str(value), ha='left', va='center')
 
+plt.savefig('Figure03.png')
+plt.close()
+
+"""### **산점도 그래프 : 나이와 요금, 생존 여부 확인하기**"""
+
