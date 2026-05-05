@@ -9,7 +9,7 @@ import os
 
 base_path = os.path.dirname(os.path.abspath(__file__))
 # 세션 저장소에 업로드한 csv 파일을 읽어 변수에 할당
-netflix = pd.read_csv('netflix_titles.csv')
+netflix = pd.read_csv(base_path+'\\netflix_titles.csv')
 netflix.head()
 
 # .columns : 열 이름 확인
@@ -208,7 +208,7 @@ text = str(list(netflix['description']))
 
 # mask : 단어를 그릴 위치 설정, 흰색(#FFFFFF) 항목은 마스킹된 것으로 간주
 # 로고 이미지 열고 넘파이 배열로 변환
-mask = np.array(Image.open('netflix_logo.jpg'))
+mask = np.array(Image.open(base_path+'\\netflix_logo.jpg'))
 
 # 워드 클라우드 색상맵 만들기
 cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('', ['#221f1f','#b20710'])
